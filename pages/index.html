@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="converter-container">
+        <h1 class="converter__heading">Currency Converter</h1>
+        <div class="currency__name">
+            <div class="currency__name-first">
+                <div class="flag__img">
+                    <img src="images/src/US-Flag.svg" alt="" id="flag-first">
+                </div>
+                <select name="currency" id="currency-select-first" class="change__currency">
+                    <option value="USD">Доллар США</option>
+                    <option value="EUR">Евро</option>
+                    <option value="GBP">Фунт стерлингов</option>
+                    <option value="RUB">Российские рубли</option>
+                </select>
+            </div>
+            <button class="exchange-icon" id="button">
+                <img src="images/src/exchange-icon.svg" alt="">
+            </button>
+            <div class="currency__name-second">
+                <div class="flag__img">
+                    <img src="images/src/US-Flag.svg" alt=""  id="flag-second">
+                </div>
+                <select name="currency" id="currency-select-second" class="change__currency">
+                    <option value="USD">Доллар США</option>
+                    <option value="EUR">Евро</option>
+                    <option value="GBP">Фунт стерлингов</option>
+                    <option value="RUB">Российские рубли</option>
+                </select>
+            </div>
+        </div>
+        <div class="currency__textInputs">
+            <input type="text" id="firstInput" class="currency-input" placeholder="Введите сумму для обмена">
+            <input type="text" id="secondInput" class="currency-input" placeholder="Сумма после обмена ">
+        </div>
+    </div>
+    <script src="js/main.min.js"></script>
+</body>
+</html>
