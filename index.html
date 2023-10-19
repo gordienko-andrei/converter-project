@@ -25,7 +25,7 @@
                         <option value="RUB">Российские рубли</option>
                     </select>
                 </div>
-                <input type="text" id="firstInput" class="currency-input" placeholder="Введите сумму для обмена">
+                <input type="number" id="firstInput" class="currency-input" placeholder="Введите сумму для обмена">
             </div>
             <button class="exchange-icon" id="button">
                 <img src="images/src/exchange-icon.svg" alt="">
@@ -33,22 +33,18 @@
             <div class="currency__second">
                 <div class="currency__name-second">
                     <div class="flag__img">
-                        <img src="images/src/US-Flag.svg" alt=""  id="flag-second">
+                        <img src="images/src/gbr-flag.svg" alt=""  id="flag-second">
                     </div>
                     <select name="currency" id="currency-select-second" class="change__currency">
+                        <option value="GBP">Фунт стерлингов</option>
                         <option value="USD">Доллар США</option>
                         <option value="EUR">Евро</option>
-                        <option value="GBP">Фунт стерлингов</option>
                         <option value="RUB">Российские рубли</option>
                     </select>
                 </div>
-                <input type="text" id="secondInput" class="currency-input" placeholder="Сумма после обмена ">
+                <input type="number" id="secondInput" class="currency-input" placeholder="Сумма после обмена ">
             </div>
         </div>
-        <!-- <div class="currency__textInputs">
-            <input type="text" id="firstInput" class="currency-input" placeholder="Введите сумму для обмена">
-            <input type="text" id="secondInput" class="currency-input" placeholder="Сумма после обмена ">
-        </div> -->
     </div>
     <script src="js/main.min.js"></script>
 </body>
